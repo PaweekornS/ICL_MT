@@ -1,0 +1,17 @@
+# Exclude cache directories
+**/.cache
+**/__pycache__
+
+# Exclude data files that are not needed for the build
+data/.cache/
+
+# General exclusions
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
